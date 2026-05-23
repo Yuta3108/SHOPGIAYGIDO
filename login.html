@@ -1,65 +1,127 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Login</title>
+  <title>Login | SneakStyle</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
+  <!-- HEADER -->
+
   <header class="header">
 
-    <div class="logo">SneakStyle</div>
+    <div class="logo">
+      SneakStyle
+    </div>
 
     <nav class="navbar">
+
       <a href="index.html">Home</a>
       <a href="register.html">Register</a>
       <a href="cart.html">Cart</a>
+
     </nav>
 
   </header>
 
-  <section class="auth-wrapper">
+  <!-- LOGIN -->
 
-    <div class="auth-card">
+  <section class="auth-page">
 
-      <h2>Welcome Back 👋</h2>
+    <div class="auth-left">
 
-      <p>
-        Đăng nhập để tiếp tục mua sắm.
-      </p>
+      <div class="auth-overlay"></div>
 
-      <input type="email" placeholder="Email">
+      <img
+        src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1200&auto=format&fit=crop"
+        alt="Sneaker Banner">
 
-      <input type="password" placeholder="Password">
+      <div class="auth-left-content">
 
-      <button>Login</button>
+        <span class="auth-tag">
+          PREMIUM SNEAKERS
+        </span>
 
-      <div class="auth-link">
+        <h1>
+          Welcome Back.
+        </h1>
 
-        Chưa có tài khoản?
-        <a href="register.html">
-          Đăng ký
-        </a>
+        <p>
+          Login and continue your premium sneaker shopping experience.
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="auth-right">
+
+      <div class="auth-box">
+
+        <h2>
+          Login
+        </h2>
+
+        <p>
+          Sign in to your account.
+        </p>
+
+        <form class="auth-form">
+
+          <div class="input-box">
+
+            <label>Email</label>
+
+            <input
+              type="email"
+              placeholder="Enter your email">
+
+          </div>
+
+          <div class="input-box">
+
+            <label>Password</label>
+
+            <input
+              type="password"
+              placeholder="Enter your password">
+
+          </div>
+
+          <button type="submit" class="auth-btn">
+            Login
+          </button>
+
+        </form>
+
+        <div class="auth-bottom">
+
+          Don’t have an account?
+
+          <a href="register.html">
+            Register
+          </a>
+
+        </div>
 
       </div>
 
     </div>
 
   </section>
-
-  <footer>
-
-    <div class="footer-bottom">
-      © 2026 SneakStyle. All rights reserved.
-    </div>
-
-  </footer>
 
 </body>
 

@@ -1,67 +1,137 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Register</title>
+  <title>Register | SneakStyle</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
+  <!-- HEADER -->
+
   <header class="header">
 
-    <div class="logo">SneakStyle</div>
+    <div class="logo">
+      SneakStyle
+    </div>
 
     <nav class="navbar">
+
       <a href="index.html">Home</a>
       <a href="login.html">Login</a>
       <a href="cart.html">Cart</a>
+
     </nav>
 
   </header>
 
-  <section class="auth-wrapper">
+  <!-- REGISTER -->
 
-    <div class="auth-card">
+  <section class="auth-page">
 
-      <h2>Create Account ✨</h2>
+    <div class="auth-left register-left">
 
-      <p>
-        Đăng ký tài khoản để trải nghiệm mua sắm.
-      </p>
+      <div class="auth-overlay"></div>
 
-      <input type="text" placeholder="Full Name">
+      <img
+        src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?q=80&w=1200&auto=format&fit=crop"
+        alt="Sneaker Banner">
 
-      <input type="email" placeholder="Email">
+      <div class="auth-left-content">
 
-      <input type="password" placeholder="Password">
+        <span class="auth-tag">
+          JOIN SNEAKSTYLE
+        </span>
 
-      <button>Register</button>
+        <h1>
+          Create Account.
+        </h1>
 
-      <div class="auth-link">
+        <p>
+          Discover premium sneakers and modern streetwear collections.
+        </p>
 
-        Đã có tài khoản?
-        <a href="login.html">
-          Đăng nhập
-        </a>
+      </div>
+
+    </div>
+
+    <div class="auth-right">
+
+      <div class="auth-box">
+
+        <h2>
+          Register
+        </h2>
+
+        <p>
+          Create your premium account.
+        </p>
+
+        <form class="auth-form">
+
+          <div class="input-box">
+
+            <label>Full Name</label>
+
+            <input
+              type="text"
+              placeholder="Enter your name">
+
+          </div>
+
+          <div class="input-box">
+
+            <label>Email</label>
+
+            <input
+              type="email"
+              placeholder="Enter your email">
+
+          </div>
+
+          <div class="input-box">
+
+            <label>Password</label>
+
+            <input
+              type="password"
+              placeholder="Create password">
+
+          </div>
+
+          <button type="submit" class="auth-btn">
+            Create Account
+          </button>
+
+        </form>
+
+        <div class="auth-bottom">
+
+          Already have an account?
+
+          <a href="login.html">
+            Login
+          </a>
+
+        </div>
 
       </div>
 
     </div>
 
   </section>
-
-  <footer>
-
-    <div class="footer-bottom">
-      © 2026 SneakStyle. All rights reserved.
-    </div>
-
-  </footer>
 
 </body>
 
